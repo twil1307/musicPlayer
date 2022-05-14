@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Music Player | Audio Player 🎵</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="aniCss.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
+
+    <div class="container">
+
+
+        <div class="memories">
+            <div class="title">
+                <p>BEEN TOGETHER</p>
+            </div>
+            <div class="time">
+                <div class="timeContain">
+                    <h1 id="day"></h1>
+                    <p>Days</p>
+                </div>
+                <div class="timeContain">
+                    <h1 id="hour"></h1>
+                    <p>Hours</p>
+                </div>
+                <div class="timeContain">
+                    <h1 id="minute"></h1>
+                    <p>Minutes</p>
+                </div>
+                <div class="timeContain">
+                    <h1 id="second"></h1>
+                    <p>Seconds</p>
+                </div>
+            </div>
+            <div class="imageShow">
+                <div class="us">
+                    <img src="img/him.jpg" class="ourImg" alt="">
+                    <p class="name">Le Duc</p>
+                </div>
+
+                <div class="heart">
+                    <i class="fas fa-solid fa-heart"></i>
+                    <p>05/05/2019</p>
+                </div>
+
+                <div class="us">
+                    <img src="img/her.jpg" class="ourImg" alt="">
+                    <p class="name">Thu Thao</p>
+                </div>
+            </div>
+
+            <div class="see">
+                <a href="memories.html">
+                    <button class="buttonMemories">SEE OUR MEMORIES</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="app-cover">
+            <div id="bg-artwork"></div>
+            <div id="bg-layer"></div>
+            <div id="player">
+                <div id="player-track">
+                    <div id="album-name"></div>
+                    <div id="track-name"></div>
+                    <div id="track-time">
+                        <div id="current-time"></div>
+                        <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                        <div id="ins-time"></div>
+                        <div id="s-hover"></div>
+                        <div id="seek-bar"></div>
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active" id="_1">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+                        <div id="buffer-box">Buffering ...</div>
+                    </div>
+                    <div id="player-controls">
+                        <div class="control">
+                            <div class="button" id="play-previous">
+                                <i class="fas fa-backward"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-pause-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-next">
+                                <i class="fas fa-forward"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

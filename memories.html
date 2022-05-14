@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="aniCss.css">
+    <link rel="stylesheet" href="memories.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
+
+    <div class="container">
+        <div class="title2">
+            <p>OUR MEMORIES</p>
+        </div>
+        <div class="memories" style="margin-bottom: 600px;">
+            <div class="scope">
+                <span style='--i:1;'><img src='img/anh1.jpg' alt='not found'></span>
+                <span style='--i:2;'><img src='img/anh2.jpg' alt='not found'></span>
+                <span style='--i:3;'><img src='img/anh3.jpg' alt='not found'></span>
+                <span style='--i:4;'><img src='img/anh4.jpg' alt='not found'></span>
+                <span style='--i:5;'><img src='img/anh5.jpg' alt='not found'></span>
+                <span style='--i:6;'><img src='img/anh6.jpg' alt='not found'></span>
+                <span style='--i:7;'><img src='img/anh7.jpg' alt='not found'></span>
+                <span style='--i:8;'><img src='img/anh8.jpg' alt='not found'></span>
+                <span style='--i:9;'><img src='img/anh9.jpg' alt='not found'></span>
+                <span style='--i:10;'><img src='img/anh10.jpg' alt='not found'></span>
+                <span style='--i:11;'><img src='img/anh11.jpg' alt='not found'></span>
+                <span style='--i:12;'><img src='img/anh12.jpg' alt='not found'></span>
+                <span style='--i:13;'><img src='img/anh13.jpg' alt='not found'></span>
+                <span style='--i:14;'><img src='img/anh14.jpg' alt='not found'></span>
+                <span style='--i:15;'><img src='img/anh15.jpg' alt='not found'></span>
+                <span style='--i:16;'><img src='img/anh16.jpg' alt='not found'></span>
+                <span style='--i:17;'><img src='img/anh17.jpg' alt='not found'></span>
+                <span style='--i:18;'><img src='img/anh18.jpg' alt='not found'></span>
+                <span style='--i:19;'><img src='img/anh19.jpg' alt='not found'></span>
+                <span style='--i:20;'><img src='img/anh20.jpg' alt='not found'></span>
+                <span style='--i:21;'><img src='img/anh21.jpg' alt='not found'></span>
+                <span style='--i:22;'><img src='img/anh22.jpg' alt='not found'></span>
+                <span style='--i:23;'><img src='img/anh23.jpg' alt='not found'></span>
+                <span style='--i:30;'><img src='img/anh30.jpg' alt='not found'></span>
+                <span style='--i:31;'><img src='img/anh31.jpg' alt='not found'></span>
+            </div>
+        </div>
+
+        <div id="app-cover">
+            <div id="bg-artwork"></div>
+            <div id="bg-layer"></div>
+            <div id="player">
+                <div id="player-track">
+                    <div id="album-name"></div>
+                    <div id="track-name"></div>
+                    <div id="track-time">
+                        <div id="current-time"></div>
+                        <div id="track-length"></div>
+                    </div>
+                    <div id="s-area">
+                        <div id="ins-time"></div>
+                        <div id="s-hover"></div>
+                        <div id="seek-bar"></div>
+                    </div>
+                </div>
+                <div id="player-content">
+                    <div id="album-art">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active" id="_1">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
+                        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+                        <div id="buffer-box">Buffering ...</div>
+                    </div>
+                    <div id="player-controls">
+                        <div class="control">
+                            <div class="button" id="play-previous">
+                                <i class="fas fa-backward"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-pause-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <div class="button" id="play-next">
+                                <i class="fas fa-forward"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
